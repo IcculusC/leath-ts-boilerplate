@@ -1,12 +1,3 @@
-///<reference path='./typings/jquery/jquery.d.ts' />
+///<reference path='./typings/node/node.d.ts' />
 
-import $ = require('jquery');
-
-class TestClass {
-  
-  constructor() {
-    $('body').addClass('tested');
-  }
-}
-
-$(new TestClass());
+process.exit();
